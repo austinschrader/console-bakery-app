@@ -10,8 +10,8 @@ namespace Bakery.Tests
     [TestMethod]
     public void PastryConstructor_CreatesInstanceOfPastry_Pastry()
     {
-      Pastry newPastry = new Pastry("yummy");
-      string myTaste = "yummy";
+      Pastry newPastry = new Pastry("yummy!");
+      string myTaste = "yummy!";
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
       Assert.AreEqual(myTaste, newPastry.Taste);
     }
