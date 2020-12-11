@@ -6,9 +6,9 @@ namespace Bakery
   {
     public string Taste { get; set; }
 
-    // public Pastry(string taste)
-    // {
-    //   Taste = taste;
-    // }
+    public Pastry(string taste)
+    {
+      Taste = taste;
+    }
   }
 }
