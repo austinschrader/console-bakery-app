@@ -7,6 +7,8 @@ namespace Bakery
     static void Main()
     {
       Console.WriteLine("hello world");
+      Console.WriteLine("What would you like to purchase?");
+
     }
   }
 
