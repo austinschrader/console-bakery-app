@@ -2,6 +2,11 @@ namespace Bakery
 {
   public class Bread
   {
-    // properties and stuff
+    public string Taste { get; set; }
+
+    public Bread(string taste)
+    {
+      Taste = taste;
+    }
   }
 }
