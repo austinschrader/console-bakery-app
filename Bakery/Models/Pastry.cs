@@ -1,4 +1,4 @@
-namespace Pastry
+namespace Bakery
 {
   public class Pastry
   {
