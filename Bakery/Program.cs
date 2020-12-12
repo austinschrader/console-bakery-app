@@ -8,7 +8,7 @@ namespace Bakery
     {
       Console.WriteLine("hello world");
       Console.WriteLine("What would you like to purchase?");
-      Console.ReadLine();
+      string userInput = Console.ReadLine();
 
     }
   }
