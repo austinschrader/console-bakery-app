@@ -15,6 +15,7 @@ namespace Bakery.Tests
       Assert.AreEqual(myTaste, newBread.Taste);
     }
 
+    [TestMethod]
     public void BreadOrderCalc_ReturnsBreadTotal_Int()
     {
       Bread newBread = new Bread("yummy");
