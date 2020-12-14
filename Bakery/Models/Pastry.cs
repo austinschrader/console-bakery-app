@@ -13,29 +13,11 @@ namespace Bakery
 
     public int PastryOrderCalc(int pastryCount)
     {
-      int pastryCost = 0;
-      if (pastryCount == 0)
-      {
-        pastryCost = 0;
-        return pastryCost;
-      }
-      else if (pastryCount == 1)
-      {
-        pastryCost = 2;
-        return pastryCost;
-      }
-      else if (pastryCount == 2)
-      {
-        pastryCost = 3;
-        return pastryCost;
-      }
-      else if (pastryCount == 3)
-      {
-        pastryCost = 5;
-        return pastryCost;
-      }
-      return pastryCost;
+      int unitOfThree = pastryCount / 3;
+      int remainder = pastryCount % 3;
 
+      int pastryCost = (unitOfThree * 5) + (remainder * 2);
+      return pastryCost;
     }
   }
 }

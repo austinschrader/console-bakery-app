@@ -1,3 +1,5 @@
+using System;
+
 namespace Bakery
 {
   public class Bread
@@ -7,6 +9,15 @@ namespace Bakery
     public Bread(string taste)
     {
       Taste = taste;
+    }
+
+    public int BreadOrderCalc(int breadCount)
+    {
+      int unitOfThree = breadCount / 3;
+      int remainder = breadCount % 3;
+
+      int breadCost = (unitOfThree * 15) + (remainder * 5);
+      return breadCost;
     }
   }
 }
