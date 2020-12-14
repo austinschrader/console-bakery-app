@@ -20,7 +20,12 @@ namespace Bakery
       Pastry newPastry = new Pastry("yummy");
       int pastryCost = newPastry.PastryOrderCalc(pastryCount);
 
-      Console.WriteLine("This is your total order cost: " + pastryCost);
+      Bread newBread = new Bread("yummy");
+      int breadCost = newBread.BreadOrderCalc(breadCount);
+
+      int orderTotal = pastryCost + breadCost;
+
+      Console.WriteLine("This is your total order cost: " + orderTotal);
 
     }
   }
