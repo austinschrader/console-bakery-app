@@ -20,7 +20,7 @@ namespace Bakery.Tests
     {
       Bread newBread = new Bread("yummy");
       int breadCount = 3;
-      int breadCost = 5;
+      int breadCost = 15;
       Assert.AreEqual(breadCost, newBread.BreadOrderCalc(breadCount));
     }
 
