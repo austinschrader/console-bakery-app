@@ -1,0 +1,90 @@
+{
+  "Bakery.dll": {
+    "C:\\Users\\austi\\Desktop\\Projects\\friday-csharp-project\\Bakery\\Models\\Bread.cs": {
+      "Bakery.Bread": {
+        "System.String Bakery.Bread::get_Taste()": {
+          "Lines": {
+            "7": 8
+          },
+          "Branches": []
+        },
+        "System.Int32 Bakery.Bread::BreadOrderCalc(System.Int32)": {
+          "Lines": {
+            "15": 6,
+            "16": 6,
+            "17": 6,
+            "19": 6,
+            "20": 6,
+            "21": 6
+          },
+          "Branches": []
+        },
+        "System.Void Bakery.Bread::.ctor(System.String)": {
+          "Lines": {
+            "9": 7,
+            "10": 7,
+            "11": 7,
+            "12": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\austi\\Desktop\\Projects\\friday-csharp-project\\Bakery\\Models\\Pastry.cs": {
+      "Bakery.Pastry": {
+        "System.String Bakery.Pastry::get_Taste()": {
+          "Lines": {
+            "7": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 Bakery.Pastry::PastryOrderCalc(System.Int32)": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        },
+        "System.Void Bakery.Pastry::.ctor(System.String)": {
+          "Lines": {
+            "9": 2,
+            "10": 2,
+            "11": 2,
+            "12": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\austi\\Desktop\\Projects\\friday-csharp-project\\Bakery\\Program.cs": {
+      "Bakery.Program": {
+        "System.Void Bakery.Program::Main()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
