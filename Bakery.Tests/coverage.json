@@ -34,27 +34,27 @@
       "Bakery.Pastry": {
         "System.String Bakery.Pastry::get_Taste()": {
           "Lines": {
-            "7": 3
+            "7": 9
           },
           "Branches": []
         },
         "System.Int32 Bakery.Pastry::PastryOrderCalc(System.Int32)": {
           "Lines": {
-            "15": 1,
-            "16": 1,
-            "17": 1,
-            "19": 1,
-            "20": 1,
-            "21": 1
+            "15": 7,
+            "16": 7,
+            "17": 7,
+            "19": 7,
+            "20": 7,
+            "21": 7
           },
           "Branches": []
         },
         "System.Void Bakery.Pastry::.ctor(System.String)": {
           "Lines": {
-            "9": 2,
-            "10": 2,
-            "11": 2,
-            "12": 2
+            "9": 8,
+            "10": 8,
+            "11": 8,
+            "12": 8
           },
           "Branches": []
         }
