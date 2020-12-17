@@ -16,7 +16,7 @@ namespace Bakery
       int unitOfThree = breadCount / 3;
       int remainder = breadCount % 3;
 
-      int breadCost = (unitOfThree * 15) + (remainder * 5);
+      int breadCost = (unitOfThree * 10) + (remainder * 5);
       return breadCost;
     }
   }
